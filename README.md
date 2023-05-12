@@ -6,9 +6,9 @@ From your command line, first clone TodoApp:
 
 ```bash
 # Clone the repository
-$ git clone [repo-link]
+$ git clone https://github.com/shozabk/Todo-List.git
 # Move into the repository
-$ cd [repo-name]
+$ cd Todo-List
 # Install dependencies( Node : 16.18.1)
 # If you have yarn installed in the system
 $ yarn install
