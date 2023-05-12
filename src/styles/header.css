@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.header {
+  background-color: rgb(248, 145, 145);
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  padding: 10px;
+  color: white;
+}
+
+.header .title {
+  /* text-align: center; */
+  font-family: "Satisfy", cursive;
+  /* margin: 10px;
+  padding-left: 20px; */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* nav ul li:hover {
+  color: green;
+}
+ */
+nav ul li .sorting-drop-down {
+  display: none;
+  position: absolute;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: white;
+  flex-direction: column;
+  width: max-content;
+  font-size: 14px;
+  text-align: left;
+  right: 0;
+  top: 50;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10000000000 !important;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  font-weight: normal !important;
+  text-shadow: none !important;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav ul li .sorting-drop-down a {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+nav ul li .sorting-drop-down a:last-child {
+  border: none !important;
+}
+
+/* nav ul li .sorting-drop-down a:hover {
+  color: green !important;
+} */
+
+nav ul li:hover .sorting-drop-down {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  nav ul {
+    justify-content: start !important;
+  }
+  nav ul li {
+    margin: 5px 10px !important;
+  }
+}
+
+nav .button {
+  background-color: rgba(238, 83, 83, 0.856) !important;
+  outline: none !important;
+  border: none !important;
+}
+
+nav .button :hover {
+  background-color: rgb(236, 178, 178) !important;
+}

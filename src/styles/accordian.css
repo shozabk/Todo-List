@@ -1,0 +1,25 @@
+.accordion-title{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.accordion-title h5{
+    margin: 0;
+}
+
+.margin-bottom{
+    margin-bottom: 30px;
+}
+
+.accordion-footer{
+    display: flex;
+    justify-content: end;
+}
+
+.accordion-title-color{
+    color: rgb(248, 145, 145);;
+}
